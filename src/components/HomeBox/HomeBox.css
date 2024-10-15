@@ -1,11 +1,9 @@
 .image-container {
-    background-color: pink;
     display: flex;
     flex: 1;
 }
 
 .top-container {
-    background-color: brown;
     flex-direction: column;
     flex: 1;
     margin-left: 50px;
