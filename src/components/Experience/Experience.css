@@ -1,0 +1,76 @@
+
+.experience-container-holder {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.experience-title {
+    text-align: center;
+    margin-top: 50px;
+    color: inherit;
+    text-decoration: none;
+    font-family: "Courier New", ui-rounded; font-weight: 700;
+    font-size: 34px;
+    line-height: 1.3;
+
+}
+.experience-subtitle {
+    font-family: "Courier New", ui-rounded;
+    color: white;
+    font-size: 20px;
+    line-height: 1.55;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.experience-container {
+    color: white;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.job-item {
+    flex: 1;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid lightgreen;
+    background: linear-gradient(20deg, black, #262626FF);
+    border-radius: 4px;
+}
+
+.job-item img {
+    width: 120px;
+    height: 70px;
+    border-radius: 4px;
+    margin-left: auto;
+}
+
+.job-item-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.company-name,
+.job-dates,
+.skills {
+    color: white;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.job-responsibilities {
+    list-style-type: disc;
+    margin-left: 20px;
+}
