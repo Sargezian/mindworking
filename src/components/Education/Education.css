@@ -1,0 +1,83 @@
+.education-header {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.3;
+    letter-spacing: 1.5px;
+}
+
+.education-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(20deg, black, #262626FF);
+    border-radius: 10px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    border-left: 4px solid lightgreen;
+}
+
+.degree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.degree-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.university,
+.dates {
+    color: white;
+}
+
+.university-logo {
+    width: 280px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.program {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.coursework {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+
+.coursework-header {
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .degree {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .education-container {
+        padding: 15px;
+    }
+
+    .education-header {
+        font-size: 28px;
+    }
+
+    .university-logo {
+        width: 60px;
+    }
+}
