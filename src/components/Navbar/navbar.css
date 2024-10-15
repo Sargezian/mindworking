@@ -1,0 +1,38 @@
+.nav {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.li {
+    margin: 15px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: lawngreen;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .li {
+        margin: 10px 0;
+    }
+}
