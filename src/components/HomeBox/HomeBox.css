@@ -1,9 +1,11 @@
 .image-container {
+    background-color: pink;
     display: flex;
     flex: 1;
 }
 
 .top-container {
+    background-color: brown;
     flex-direction: column;
     flex: 1;
     margin-left: 50px;
@@ -28,15 +30,17 @@
 
 .profile-columns {
     display: flex;
-    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .column {
-    margin: 5px;
-    display: flex;
     flex: 1;
+    margin: 5px;
     background: linear-gradient(20deg, black, #262626FF);
     border-radius: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
@@ -48,6 +52,14 @@
     font-size: 25px;
     text-align: center;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .column {
+        flex: 1 1 100%; /* Stack columns vertically, 100% width */
+    }
+}
+
 
 .lennart-style {
     width: auto;
