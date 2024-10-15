@@ -16,7 +16,11 @@ const Home: React.FC = React.memo(() => {
         <div>
             <HomeBox/>
             <MovingBanner/>
+
+            <div id="experience">
             <Experience/>
+            </div>
+
             <div id="projects" className="contentContainer">
                 <p className="TitleText">Previous Projects</p>
                 <Grid.Container gap={2} justify="center">
@@ -26,9 +30,12 @@ const Home: React.FC = React.memo(() => {
                     <Pentia />
                 </Grid.Container>
             </div>
-
+            <div id="education">
             <Education/>
+            </div>
+            <div id="skills">
             <Skills/>
+            </div>
         </div>
 
     );

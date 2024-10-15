@@ -1,18 +1,22 @@
 .nav {
-    padding: 15px 20px;
     display: flex;
     flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    justify-content: center;
 }
 
 .ul {
     list-style: none;
     display: flex;
-    flex: 1;
     justify-content: center;
+    border: lightgreen solid 4px;
 }
 
 .li {
     margin: 15px;
+    display: flex;
 }
 
 .link {

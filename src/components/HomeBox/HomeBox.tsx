@@ -14,7 +14,7 @@ const HomeBox: React.FC = React.memo(() => {
                                 "I'm a <br/> <strong>Front-end Developer</strong> ",
                                 "Let's have a talk over a cup of <br/> <strong>Coffee!!!!</strong>",
                             ]}
-                            typeSpeed={150}
+                            typeSpeed={100}
                             backSpeed={100}
                             loop
                         />
